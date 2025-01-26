@@ -1,0 +1,72 @@
+/* Intro.css */
+.intro-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.intro-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  color: #4ade80;
+}
+
+.intro-subtext {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.intro-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.experience-button, .about-button, .projects-button {
+  border: 1px solid #4ade80;
+  color: #4ade80;
+}
+
+.experience-button:hover, .about-button:hover, .projects-button:hover {
+  background-color: #4ade80;
+  color: #000;
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

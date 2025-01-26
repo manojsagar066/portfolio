@@ -1,0 +1,80 @@
+/* Projects.css */
+.projects-section {
+    padding: 80px 0;
+  }
+  
+  .projects-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    border: 1px solid #4ade80;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description {
+    margin-bottom: 1rem;
+  }
+  
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-item {
+    background-color: #4ade80;
+    color: #000;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  
+  .view-details-button {
+    display: flex;
+    align-items: center;
+    color: #4ade80;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .view-details-button:hover {
+    color: #3fcf76;
+  }
+  
+  .project-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #4ade80;
+    color: #000;
+    border-radius: 0.5rem;
+  }

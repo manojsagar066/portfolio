@@ -1,0 +1,48 @@
+/* Experience.css */
+.experience-section {
+    padding: 80px 0;
+  }
+  
+  .experience-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .experience-item {
+    border-left: 4px solid #4ade80;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .experience-position {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .experience-company {
+    color: #4ade80;
+    margin-bottom: 0.5rem;
+  }
+  
+  .responsibilities-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #4ade80;
+  }
+  
+  .responsibilities-list li {
+    margin-bottom: 0.5rem;
+  }

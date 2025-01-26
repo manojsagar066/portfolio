@@ -1,0 +1,87 @@
+/* About.css */
+.about-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-image-container {
+  width: 100%;
+  max-width: 256px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 256px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #4ade80;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-paragraph {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: relative; /* For positioning the feedback message */
+}
+
+.social-link {
+  color: #4ade80;
+  transition: color 0.3s;
+  cursor: pointer; /* Indicate clickable items */
+}
+
+.social-link:hover {
+  color: #3fcf76;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.copy-feedback {
+  position: absolute;
+  top: -30px; /* Position above the icons */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.875rem;
+  color: #4ade80;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
