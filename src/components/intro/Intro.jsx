@@ -42,6 +42,9 @@ export function Intro() {
 
   return (
     <section className="intro-section">
+      <div className="spiderman-animation">
+        <img src="/spiderman.png" alt="Spider-Man Hanging" className="spiderman" />
+      </div>
       <h1 className="intro-heading">
         <span className="intro-text">&gt;_</span>
         <br></br>
