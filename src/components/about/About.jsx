@@ -69,7 +69,7 @@ export function About() {
 
             {/* LinkedIn Link */}
             <a
-              href="https://www.linkedin.com/in/your-linkedin-profile"
+              href="https://in.linkedin.com/in/manoj-sagar"
               className="social-link"
               target="_blank"
               rel="noopener noreferrer"
