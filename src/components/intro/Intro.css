@@ -73,8 +73,9 @@
 
 .spiderman-animation {
   position: fixed;
-  top: 0;
-  right: 20px;
+  top: 100px; 
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact center */
   z-index: 10;
 }
 
