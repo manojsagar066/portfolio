@@ -9,8 +9,7 @@ const experiences = [
     period: "Jan 2023 - Present",
     responsibilities: [
       "Automated major scraping workflow using ChatGPT and Puppeteer, eliminating manual GraphQL query writing and config deployment, reducing deployment time from 2-3 hours to near-instant, and enabling bulk scraping of 100,000+ websites.",
-      "Migrated and refactored Puppeteer service (webpage rendering service) to TypeScript and added metrics, improving code quality and oberservability.",
-      "Scaling the Puppeteer service instance to handle the dynamic load of 1000+ concurrent requests.",
+      "Refactored and migrated the Puppeteer webpage rendering service to TypeScript,enhancing its design and functionality. Introduced task-level metrics to monitor performance and evaluated the service’s throughput and efficiency. Implemented autoscaling for Puppeteer workers in AWS, leveraging performance insights to optimize scalability.",
       "Implemented URL checker store with AWS OpenSearch, preventing duplicate URL scraping and improving data quality, resulting in an 80% cost reduction.",
     ],
   },
@@ -21,8 +20,7 @@ const experiences = [
     period: "Aug 2018 - Dec 2023",
     responsibilities: [
       "Developed high-volume API service using Puppeteer and Nodejs, successfully scraping millions of dynamically rendered pages from previously challenging websites.",
-      "Implemented a re-queue mechanism system which helped in the efficient re-queuing of failed celery tasks in the system.",
-      "Optimized AWS cloud infrastructure utilizing Elastic Cache and EC2 services, resulting in a 50% cost reduction while improving system performance and security.",
+      "Implemented an auto-scaling policy for Celery workers on EC2 by exposing Celery queue size metrics to CloudWatch. This enabled dynamic scaling of workers, eliminating manual intervention and reducing costs by 50%.",
       "Enhanced open-source Flaresolverr project to bypass Cloudflare detection and integrated Prometheus for metric collection and visualization. Contributed improvements to the main Flaresolverr repository. Also contributed to the Flaresolverr open source project to add Prometheus metrics.",
     ],
   },
